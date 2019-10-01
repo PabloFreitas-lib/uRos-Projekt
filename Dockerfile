@@ -56,7 +56,7 @@ RUN apt install sudo
 RUN mkdir root/cc_ws
 
 #RUN cd ~/ && wget https://raw.githubusercontent.com/micro-ROS/micro-ROS-bridge_RPI/master/micro-ROS-Agent_Cross-Compilation/cc_script.sh && chmod +x cc_script.sh
-RUN cd ~/ && wget https://raw.githubusercontent.com/PabloFreitasUfsc/uRos-Projekt/blob/master/cc_script.sh && chmod +x cc_script.sh
+RUN cd ~/ && wget https://raw.githubusercontent.com/PabloFreitasUfsc/uRos-Projekt/master/cc_script.sh && chmod +x cc_script.sh
 
 ENTRYPOINT ["root/cc_script.sh"]
 CMD ["bash"]
