@@ -23,7 +23,7 @@ apt-get update
 
 python3 -m pip install -U pyparted
 
-mkdir -p ~/cc_ws/micro-ros_rpi/agent_ws/src #Agent ws
+mkdir -p ~/cc_ws/micro-ros_rpi/client_ws/src #Client ws
 cd ~/cc_ws/micro-ros_rpi
 
 echo Downloading tools for cross-compilation
