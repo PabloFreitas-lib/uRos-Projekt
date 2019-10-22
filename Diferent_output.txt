@@ -1,0 +1,779 @@
+Cross-Compilation ROS2
+--2019-10-22 10:23:25--  https://raw.githubusercontent.com/ros2/ros2/crystal/ros2.repos
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 151.101.92.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|151.101.92.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 8682 (8.5K) [text/plain]
+Saving to: ‘ros2.repos’
+
+ros2.repos                                           100%[=====================================================================================================================>]   8.48K  --.-KB/s    in 0s      
+
+2019-10-22 10:23:25 (40.2 MB/s) - ‘ros2.repos’ saved [8682/8682]
+
+...........................................................................
+=== src/ament/ament_cmake (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ament/ament_index (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ament/ament_lint (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ament/ament_package (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ament/googletest (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ament/osrf_pycommon (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ament/uncrustify_vendor (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/eProsima/Fast-CDR (git) ===
+Cloning into '.'...
+Note: checking out 'v1.0.8'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at b4e09ba Merge pull request #32 from eProsima/hotfix/dynamic-types-idl-generator
+=== src/eProsima/Fast-RTPS (git) ===
+Cloning into '.'...
+Note: checking out 'b48ce9d2fba6fc94e756da01c58b72f2ad848238'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at b48ce9d2 Fixing some warnings [4086] (#348)
+=== src/osrf/osrf_testing_tools_cpp (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros-perception/laser_geometry (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros-planning/navigation_msgs (git) ===
+Cloning into '.'...
+Switched to a new branch 'ros2'
+Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.
+=== src/ros-visualization/python_qt_binding (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/qt_gui_core (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_console (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_msg (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_plot (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_publisher (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_py_console (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_service_caller (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_shell (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_srv (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros-visualization/rqt_top (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal-devel'
+Branch 'crystal-devel' set up to track remote branch 'crystal-devel' from 'origin'.
+=== src/ros/class_loader (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros/pluginlib (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros/resource_retriever (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros/ros_environment (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros/urdfdom_headers (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/ament_cmake_ros (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/common_interfaces (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/console_bridge_vendor (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/demos (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/example_interfaces (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/examples (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/geometry2 (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/kdl_parser (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/launch (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/libyaml_vendor (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/message_filters (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/orocos_kinematics_dynamics (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/poco_vendor (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rcl (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rcl_interfaces (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rcl_logging (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rclcpp (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rclpy (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rcutils (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/realtime_support (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rmw (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rmw_connext (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rmw_fastrtps (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rmw_implementation (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rmw_opensplice (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/robot_state_publisher (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/ros1_bridge (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/ros2cli (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl_dds (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl_defaults (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl_python (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl_typesupport (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl_typesupport_connext (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl_typesupport_fastrtps (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rosidl_typesupport_opensplice (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/rviz (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/sros2 (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/system_tests (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/tinyxml2_vendor (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/tinyxml_vendor (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/tlsf (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/unique_identifier_msgs (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/urdf (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/urdfdom (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+=== src/ros2/yaml_cpp_vendor (git) ===
+Cloning into '.'...
+Switched to a new branch 'crystal'
+Branch 'crystal' set up to track remote branch 'crystal' from 'origin'.
+patching file /home/pablo/micro-ROS-bridge_RPI/ROS2_CC/micro-ros_rpi/ros2_ws/src/ros/resource_retriever/libcurl_vendor/CMakeLists.txt
+RASPBERRYPI_CROSS_COMPILE_SYSROOT  /raspbian_ros2_root/
+RASPBERRYPI_CROSS_COMPILE_TOOLCHAIN_PATH  /usr/bin
+RASPBERRYPI_CROSS_COMPILE_TOOLCHAIN_PREFIX  arm-linux-gnueabihf
+Starting >>> ament_package
+Starting >>> ament_flake8
+Starting >>> fastcdr                                                            
+Starting >>> ament_cppcheck
+Starting >>> poco_vendor                                                                                                 
+Starting >>> gtest_vendor
+Starting >>> osrf_pycommon
+Starting >>> osrf_testing_tools_cpp                                                                                                                                                        
+Starting >>> ament_pep8
+Starting >>> tinyxml_vendor                                                                                                                                                                       
+Starting >>> urdfdom_headers
+Starting >>> tinyxml2_vendor
+[8.087s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'ament_package' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[8.495s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'ament_flake8' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[8.966s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'ament_cppcheck' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[9.506s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'osrf_pycommon' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[10.062s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'ament_pep8' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+Finished <<< osrf_pycommon [6.08s]                                                                                                                                                                         
+Finished <<< ament_package [6.44s]                                                                                                                                                                         
+Starting >>> ament_cmake_core
+Finished <<< ament_pep8 [6.74s]                                                                                                                                                                             
+Starting >>> ament_pyflakes
+Finished <<< ament_cppcheck [7.72s]                                                                                                                                                         
+Finished <<< ament_flake8 [8.17s]                                                                                                                                                                 
+[16.612s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'ament_pyflakes' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+Starting >>> ament_pep257                                                                                                                                                                                 
+[18.973s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'ament_pep257' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+--- stderr: tinyxml_vendor                                                                                                                                                                                
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    BUILD_TESTING
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TINYXML2_INCLUDE_DIR
+    TINYXML2_LIBRARY
+
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/colcon_core/task/__init__.py", line 92, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/colcon_ros/task/cmake/build.py", line 37, in build
+    Path(args.install_base), self.context.pkg.name)
+  File "/usr/local/lib/python3.5/dist-packages/colcon_ros/task/cmake/__init__.py", line 24, in create_pkg_config_path_environment_hooks
+    multiarch = get_multiarch()
+  File "/usr/local/lib/python3.5/dist-packages/colcon_ros/task/cmake/__init__.py", line 46, in get_multiarch
+    output = subprocess.check_output(['gcc', '-print-multiarch'])
+  File "/usr/lib/python3.5/subprocess.py", line 316, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.5/subprocess.py", line 383, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.5/subprocess.py", line 676, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1282, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'gcc'
+---
+Failed   <<< tinyxml_vendor	[ Exited with code 1 ]
+--- stderr: gtest_vendor                                                                                                                                                           
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    BUILD_TESTING
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TINYXML2_INCLUDE_DIR
+    TINYXML2_LIBRARY
+    TinyXML_INCLUDE_DIR
+    TinyXML_LIBRARY
+
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/colcon_core/task/__init__.py", line 92, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/colcon_ros/task/cmake/build.py", line 37, in build
+    Path(args.install_base), self.context.pkg.name)
+  File "/usr/local/lib/python3.5/dist-packages/colcon_ros/task/cmake/__init__.py", line 24, in create_pkg_config_path_environment_hooks
+    multiarch = get_multiarch()
+  File "/usr/local/lib/python3.5/dist-packages/colcon_ros/task/cmake/__init__.py", line 46, in get_multiarch
+    output = subprocess.check_output(['gcc', '-print-multiarch'])
+  File "/usr/lib/python3.5/subprocess.py", line 316, in check_output
+    **kwargs).stdout
+  File "/usr/lib/python3.5/subprocess.py", line 383, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.5/subprocess.py", line 676, in __init__
+    restore_signals, start_new_session)
+  File "/usr/lib/python3.5/subprocess.py", line 1282, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'gcc'
+---
+Failed   <<< gtest_vendor	[ Exited with code 1 ]
+Finished <<< ament_pyflakes [5.26s]                                                                                                                                                 
+--- stderr: fastcdr
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    BUILD_TESTING
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TINYXML2_INCLUDE_DIR
+    TINYXML2_LIBRARY
+    TinyXML_INCLUDE_DIR
+    TinyXML_LIBRARY
+
+
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp: In member function ‘eprosima::fastcdr::FastCdr& eprosima::fastcdr::FastCdr::serialize(const char*)’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp:97:56: warning: useless cast to type ‘uint32_t {aka unsigned int}’ [-Wuseless-cast]
+         length = static_cast<uint32_t>(strlen(string_t)) + 1;
+                                                        ^
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp: In member function ‘eprosima::fastcdr::FastCdr& eprosima::fastcdr::FastCdr::serialize(const wchar_t*)’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp:132:56: warning: useless cast to type ‘uint32_t {aka unsigned int}’ [-Wuseless-cast]
+         bytesLength = static_cast<uint32_t>(wstrlen * 4);
+                                                        ^
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp:138:48: warning: useless cast to type ‘uint32_t {aka unsigned int}’ [-Wuseless-cast]
+         serialize(static_cast<uint32_t>(wstrlen));
+                                                ^
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp: In member function ‘std::__cxx11::wstring eprosima::fastcdr::FastCdr::readWString(uint32_t&)’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp:432:72: warning: cast from ‘char*’ to ‘wchar_t*’ increases required alignment of target type [-Wcast-align]
+         wchar_t* wValue = reinterpret_cast<wchar_t*>(&m_currentPosition);
+                                                                        ^
+In file included from /ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:19:0,
+                 from /ros2_ws/src/eProsima/Fast-CDR/src/cpp/FastCdr.cpp:15:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = short int]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:532:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘short int*’ increases required alignment of target type [-Wcast-align]
+                         *(reinterpret_cast<_T*>(m_currentPosition)) = data;
+                          ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = int]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:564:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = long long int]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:608:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘long long int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = float]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:628:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = double]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:648:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘double*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = long double]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:668:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘long double*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = short int]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:1100:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘short int*’ increases required alignment of target type [-Wcast-align]
+                         data = *(reinterpret_cast<_T*>(m_currentPosition));
+                                 ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = int]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:1132:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = long long int]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:1179:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘long long int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = float]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:1199:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = double]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:1219:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘double*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = long double]’:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastCdr.h:1239:50:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘long double*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp: In member function ‘eprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::serialize(const char*)’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:641:56: warning: useless cast to type ‘uint32_t {aka unsigned int}’ [-Wuseless-cast]
+         length = static_cast<uint32_t>(strlen(string_t)) + 1;
+                                                        ^
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp: In member function ‘eprosima::fastcdr::Cdr& eprosima::fastcdr::Cdr::serialize(const wchar_t*)’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:678:56: warning: useless cast to type ‘uint32_t {aka unsigned int}’ [-Wuseless-cast]
+         bytesLength = static_cast<uint32_t>(wstrlen * 4);
+                                                        ^
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:684:48: warning: useless cast to type ‘uint32_t {aka unsigned int}’ [-Wuseless-cast]
+         serialize(static_cast<uint32_t>(wstrlen));
+                                                ^
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp: In member function ‘const wstring eprosima::fastcdr::Cdr::readWString(uint32_t&)’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:1801:72: warning: cast from ‘char*’ to ‘wchar_t*’ increases required alignment of target type [-Wcast-align]
+         wchar_t* wValue = reinterpret_cast<wchar_t*>(&m_currentPosition);
+                                                                        ^
+In file included from /ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/Cdr.h:19:0,
+                 from /ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:15:
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = short int]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:279:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘short int*’ increases required alignment of target type [-Wcast-align]
+                         *(reinterpret_cast<_T*>(m_currentPosition)) = data;
+                          ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = int]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:332:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = long long int]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:389:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘long long int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = float]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:442:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = double]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:499:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘double*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator<<(const _T&) [with _T = long double]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:588:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:85:27: warning: cast from ‘char*’ to ‘long double*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = short int]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:1289:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘short int*’ increases required alignment of target type [-Wcast-align]
+                         data = *(reinterpret_cast<_T*>(m_currentPosition));
+                                 ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = int]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:1342:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = long long int]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:1399:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘long long int*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = float]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:1452:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘float*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = double]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:1509:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘double*’ increases required alignment of target type [-Wcast-align]
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h: In instantiation of ‘void eprosima::fastcdr::_FastBuffer_iterator::operator>>(_T&) [with _T = long double]’:
+/ros2_ws/src/eProsima/Fast-CDR/src/cpp/Cdr.cpp:1590:34:   required from here
+/ros2_ws/src/eProsima/Fast-CDR/include/fastcdr/FastBuffer.h:97:34: warning: cast from ‘char*’ to ‘long double*’ increases required alignment of target type [-Wcast-align]
+---
+Aborted  <<< fastcdr
+Aborted  <<< ament_pep257
+[19.698s] ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<_communicate_and_close_fds() done, defined at /usr/local/lib/python3.5/dist-packages/colcon_core/subprocess.py:262> exception=RuntimeError('cannot reuse already awaited coroutine',)>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 239, in _step
+    result = coro.send(None)
+RuntimeError: cannot reuse already awaited coroutine
+--- stderr: tinyxml2_vendor
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    BUILD_TESTING
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TinyXML_INCLUDE_DIR
+    TinyXML_LIBRARY
+
+
+---
+Aborted  <<< tinyxml2_vendor
+--- stderr: poco_vendor
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    BUILD_TESTING
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TINYXML2_INCLUDE_DIR
+    TINYXML2_LIBRARY
+    TinyXML_INCLUDE_DIR
+    TinyXML_LIBRARY
+
+
+---
+Aborted  <<< poco_vendor
+--- stderr: osrf_testing_tools_cpp
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TINYXML2_INCLUDE_DIR
+    TINYXML2_LIBRARY
+    TinyXML_INCLUDE_DIR
+    TinyXML_LIBRARY
+
+
+---
+Aborted  <<< osrf_testing_tools_cpp
+--- stderr: ament_cmake_core
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TINYXML2_INCLUDE_DIR
+    TINYXML2_LIBRARY
+    TinyXML_INCLUDE_DIR
+    TinyXML_LIBRARY
+
+
+---
+Aborted  <<< ament_cmake_core
+--- stderr: urdfdom_headers
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    ASIO_INCLUDE_DIR
+    BOOST_INCLUDEDIR
+    BUILD_TESTING
+    COMPILING_SERVER
+    EIGEN3_INCLUDE_DIR
+    Eigen3_DIR
+    Log4cxx_INCLUDE_DIR
+    Log4cxx_LIBRARY
+    OpenCV_DIR
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+    PYTHON_SOABI
+    THIRDPARTY
+    TINYXML2_INCLUDE_DIR
+    TINYXML2_LIBRARY
+    TinyXML_INCLUDE_DIR
+    TinyXML_LIBRARY
+
+
+---
+Aborted  <<< urdfdom_headers
+                                    
+Summary: 6 packages finished [18.9s]
+  2 packages failed: gtest_vendor tinyxml_vendor
+  7 packages aborted: ament_cmake_core ament_pep257 fastcdr osrf_testing_tools_cpp poco_vendor tinyxml2_vendor urdfdom_headers
+  8 packages had stderr output: ament_cmake_core fastcdr gtest_vendor osrf_testing_tools_cpp poco_vendor tinyxml2_vendor tinyxml_vendor urdfdom_headers
+  172 packages not processed
+[Errno 2] No such file or directory: 'gcc'
+[20.587s] ERROR:concurrent.futures:exception calling callback for <Future at 0x7fcf51c5acc0 state=finished returned NoneType>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/concurrent/futures/_base.py", line 297, in _invoke_callbacks
+    callback(self)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 463, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 618, in call_soon_threadsafe
+    self._check_closed()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 357, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[20.588s] ERROR:concurrent.futures:exception calling callback for <Future at 0x7fcf51c5a320 state=finished returned NoneType>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/concurrent/futures/_base.py", line 297, in _invoke_callbacks
+    callback(self)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 463, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 618, in call_soon_threadsafe
+    self._check_closed()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 357, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[83.954s] ERROR:concurrent.futures:exception calling callback for <Future at 0x7fcf516acfd0 state=finished returned NoneType>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/concurrent/futures/_base.py", line 297, in _invoke_callbacks
+    callback(self)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 463, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 618, in call_soon_threadsafe
+    self._check_closed()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 357, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[83.954s] ERROR:concurrent.futures:exception calling callback for <Future at 0x7fcf519c0da0 state=finished returned NoneType>
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/concurrent/futures/_base.py", line 297, in _invoke_callbacks
+    callback(self)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 463, in _call_set_state
+    dest_loop.call_soon_threadsafe(_set_state, destination, source)
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 618, in call_soon_threadsafe
+    self._check_closed()
+  File "/usr/lib/python3.5/asyncio/base_events.py", line 357, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[83.980s] ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<_fd2callback() done, defined at /usr/local/lib/python3.5/dist-packages/colcon_core/subprocess.py:216> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/lib/python3.5/asyncio/futures.py:452, Task._wakeup()]> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.5/asyncio/tasks.py:422]>
+[83.980s] ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<_fd2callback() done, defined at /usr/local/lib/python3.5/dist-packages/colcon_core/subprocess.py:216> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/lib/python3.5/asyncio/futures.py:452, Task._wakeup()]> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.5/asyncio/tasks.py:422]>
+[83.980s] ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<_fd2callback() done, defined at /usr/local/lib/python3.5/dist-packages/colcon_core/subprocess.py:216> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/lib/python3.5/asyncio/futures.py:452, Task._wakeup()]> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.5/asyncio/tasks.py:422]>
+[83.980s] ERROR:asyncio:Task was destroyed but it is pending!
+task: <Task pending coro=<_fd2callback() done, defined at /usr/local/lib/python3.5/dist-packages/colcon_core/subprocess.py:216> wait_for=<Future pending cb=[_chain_future.<locals>._call_check_cancel() at /usr/lib/python3.5/asyncio/futures.py:452, Task._wakeup()]> cb=[_wait.<locals>._on_completion() at /usr/lib/python3.5/asyncio/tasks.py:422]>
